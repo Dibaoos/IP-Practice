@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Example</title>
+</head>
+<body>
+
+    <h1>HTML Link Tag</h1>
+
+    <a href="https://www.google.com">Visit Google</a>
+
+    <br><br>
+
+    <a href="https://www.github.com" target="_blank">Open GitHub in New Tab</a>
+
+</body>
+</html>

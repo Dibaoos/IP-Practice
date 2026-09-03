@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffab73;
+}
+
+nav {
+  margin-top: 20px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: #b011ff;
+  text-decoration: none;
+  padding: 10px;
+  transition-duration: 0.4ms;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: black;
+}
+
+main {
+  background-color: #ffaf11;
+}
+
+footer {
+  background-color: #73b2ff;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+#about h2 {
+  background-color: #ffeaaa;
+}
+
+h2 {
+  background-color: #b011ff;
+  color: black;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=sass.css.map */

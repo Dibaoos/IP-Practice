@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Registration Form</title>
+</head>
+<body>
+
+    <h1>University Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Student Information</legend>
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label>Department:</label><br>
+            <select name="department">
+                <option value="">--Select Department--</option>
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="EEE">Electrical & Electronic Engineering</option>
+                <option value="BBA">Business Administration</option>
+                <option value="English">English</option>
+                <option value="Law">Law</option>
+            </select><br><br>
+
+            <label>Semester:</label><br>
+            <select name="semester">
+                <option value="">--Select Semester--</option>
+                <option>1st</option>
+                <option>2nd</option>
+                <option>3rd</option>
+                <option>4th</option>
+                <option>5th</option>
+                <option>6th</option>
+                <option>7th</option>
+                <option>8th</option>
+            </select><br><br>
+
+            <label>Courses:</label><br>
+            <input type="checkbox" id="html" name="course" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="course" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="javascript" name="course" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+
+            <input type="checkbox" id="cpp" name="course" value="C++">
+            <label for="cpp">C++</label><br><br>
+
+            <label for="photo">Upload Photo:</label><br>
+            <input type="file" id="photo" name="photo"><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+
+            <input type="checkbox" id="agree" required>
+            <label for="agree">I agree to the terms and conditions.</label><br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
