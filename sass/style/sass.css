@@ -1,3 +1,7 @@
+body {
+  background: red !important;
+}
+
 * {
   margin: 0px;
   padding: 0%;
@@ -51,4 +55,87 @@ h2 {
   color: black;
   margin-top: 10px;
   padding-bottom: 10px;
+}
+
+button, #myButton9, #myButton8, #myButton7, #myButton6, #myButton5, #myButton4, #myButton3, #myButton2, #myButton {
+  margin: 10px;
+  font-size: larger;
+  border-color: #ffab73;
+}
+
+#myButton {
+  background-color: aqua;
+  color: black;
+}
+#myButton:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton2 {
+  background-color: aqua;
+  color: black;
+}
+#myButton2:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton3 {
+  background-color: aqua;
+  color: black;
+}
+#myButton3:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton4 {
+  background-color: aqua;
+  color: black;
+}
+
+#myButton5 {
+  background-color: aqua;
+  color: black;
+}
+#myButton5:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton6 {
+  background-color: aqua;
+  color: black;
+}
+#myButton6:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton7 {
+  background-color: aqua;
+  color: black;
+}
+#myButton7:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton8 {
+  background-color: aqua;
+  color: black;
+}
+#myButton8:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton9 {
+  background-color: aqua;
+  color: black;
+}
+#myButton9:hover {
+  background-color: black;
+  color: aqua;
 }/*# sourceMappingURL=sass.css.map */

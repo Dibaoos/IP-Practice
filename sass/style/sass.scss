@@ -1,3 +1,6 @@
+body {
+    background: red !important;
+}
 $header-bg-color:#ffab73;
 $main-bg-color:#ffaf11;
 $footer-bg-color:#73b2ff;
@@ -51,3 +54,59 @@ h2{
     margin-top: 10px;
     padding-bottom: 10px;
 }
+//@forward "reset";//reset ke access korbe
+//sob button er kichu common style
+button{
+    margin: 10px;
+    font-size: larger;
+    border-color: #ffab73;
+}
+$primary:aqua;
+$secondary:black;
+//mixin to avoid repetation
+@mixin button-style($bg-color,$text-color){
+    background-color: $bg-color;
+    color: $text-color;
+    &:hover{
+        background-color: $text-color;
+        color: $bg-color;
+    }
+}
+//mixin diye je code ta likchi setake include korbo 
+//extend diye button ke extend korbo
+#myButton{
+    @include button-style($primary, $secondary);
+    @extend button;
+}
+#myButton2{
+    @include button-style($primary, $secondary);
+    @extend button;
+}
+#myButton3{
+    @include button-style($primary, $secondary);
+    @extend button;
+}
+//if else use kore akta mixin code create korchi jekhane if else diye check korbe
+$button-type:"primary";
+@mixin conditional-button-style($type){
+    @if $type=="primary"{
+    background-color: $primary;
+    color: $secondary;
+}
+    @else if $type=="secondary"{
+    background-color: $secondary;
+    color: $primary;
+    }
+}
+//buttun 4 er jonno chnage hbe na kichu
+#myButton4{
+    @include conditional-button-style($button-type);
+    @extend button;
+}
+//loop use kore baki mybutton gulo nibo
+@for $i from 5 to 10{
+    #myButton#{$i}{
+    @include button-style($primary, $secondary);
+    @extend button; 
+    }
+ }
