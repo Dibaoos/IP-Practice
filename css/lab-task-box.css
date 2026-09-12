@@ -1,0 +1,41 @@
+
+  .card {
+    position: relative;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: green;
+    color: white;
+    padding: 3px 8px;
+  }
+
+  .card-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 600px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
