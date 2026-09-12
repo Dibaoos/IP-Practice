@@ -1,0 +1,16 @@
+const student=["Diba","Hoimanty","Arpa"];
+console.log(student[0]);
+console.log(student[1]);
+console.log(student.length);
+student.push("Rahim");
+console.log(student.pop());
+student.unshift("Tiktiki");
+//console.log(student.shift());
+console.log(student.length);
+console.log(student);
+const num=[1,2,3,4,5,6,7];
+const doubleNum=num.map((number)=>number*2);
+console.log(doubleNum);
+const num1=[1,2,3,4,5,6,7];
+const filNum=num1.filter((number)=>number>=4);
+console.log(filNum);

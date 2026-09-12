@@ -57,7 +57,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-button, #myButton9, #myButton8, #myButton7, #myButton6, #myButton5, #myButton4, #myButton3, #myButton2, #myButton {
+button, #myButton10, #myButton9, #myButton8, #myButton7, #myButton6, #myButton5, #myButton4, #myButton3, #myButton2, #myButton {
   margin: 10px;
   font-size: larger;
   border-color: #ffab73;
@@ -136,6 +136,15 @@ button, #myButton9, #myButton8, #myButton7, #myButton6, #myButton5, #myButton4, 
   color: black;
 }
 #myButton9:hover {
+  background-color: black;
+  color: aqua;
+}
+
+#myButton10 {
+  background-color: aqua;
+  color: black;
+}
+#myButton10:hover {
   background-color: black;
   color: aqua;
 }/*# sourceMappingURL=sass.css.map */
